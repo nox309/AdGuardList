@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt

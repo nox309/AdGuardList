@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt 
+https://dbl.oisd.nl/
+https://v.firebog.net/hosts/static/w3kbl.txt 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
+https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts 
