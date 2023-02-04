@@ -1,0 +1,465 @@
+Timestamp | Severity | Message
+20230204-16:19:47 | Information | Log started
+20230204-16:19:47 | Information | Löschen aller Listen
+20230204-16:19:47 | Information | Starte Update
+20230204-16:19:47 | Information | Beginne mit dem Update von Sonstiges
+20230204-16:19:47 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
+20230204-16:19:47 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:47 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt 
+20230204-16:19:47 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:47 | Information | Abrufen der URL: https://dbl.oisd.nl/
+20230204-16:19:50 | Information | Inhalte von https://dbl.oisd.nl/ in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:50 | Information | Abrufen der URL: https://v.firebog.net/hosts/static/w3kbl.txt 
+20230204-16:19:50 | Information | Inhalte von https://v.firebog.net/hosts/static/w3kbl.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+20230204-16:19:50 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
+20230204-16:19:51 | Information | Inhalte von https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:51 | Information | Abrufen der URL: https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts 
+20230204-16:19:51 | Information | Inhalte von https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts  in .\Listen\Sonstiges.txt geschrieben
+20230204-16:19:51 | Information | Beginne mit dem Update von Tracking
+20230204-16:19:51 | Information | Abrufen der URL: https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
+20230204-16:19:52 | Information | Inhalte von https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+20230204-16:19:52 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+20230204-16:19:52 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+20230204-16:19:52 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+20230204-16:19:53 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry in .\Listen\Tracking.txt geschrieben
+20230204-16:19:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
+20230204-16:19:53 | Information | Inhalte von https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist in .\Listen\Tracking.txt geschrieben
+20230204-16:19:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+20230204-16:19:53 | Information | Inhalte von https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:53 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-16:19:53 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:53 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+20230204-16:19:54 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:54 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+20230204-16:19:54 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+20230204-16:19:54 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung in .\Listen\Tracking.txt geschrieben
+20230204-16:19:54 | Information | Abrufen der URL: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+20230204-16:19:55 | Information | Inhalte von https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:55 | Information | Abrufen der URL: https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+20230204-16:19:56 | Information | Inhalte von https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:56 | Information | Abrufen der URL: https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
+20230204-16:19:56 | Information | Inhalte von https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt in .\Listen\Tracking.txt geschrieben
+20230204-16:19:56 | Information | Beginne mit dem Update von Werbung
+20230204-16:19:56 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+20230204-16:19:57 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist in .\Listen\Werbung.txt geschrieben
+20230204-16:19:57 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+20230204-16:19:59 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails in .\Listen\Werbung.txt geschrieben
+20230204-16:19:59 | Information | Abrufen der URL: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+20230204-16:19:59 | Information | Inhalte von https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:19:59 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-16:19:59 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:19:59 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easylist.txt
+20230204-16:20:00 | Information | Inhalte von https://v.firebog.net/hosts/Easylist.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:00 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Ads.txt
+20230204-16:20:00 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Ads.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:00 | Information | Abrufen der URL: https://v.firebog.net/hosts/AdguardDNS.txt
+20230204-16:20:00 | Information | Inhalte von https://v.firebog.net/hosts/AdguardDNS.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:00 | Information | Abrufen der URL: https://adaway.org/hosts.txt
+20230204-16:20:00 | Information | Inhalte von https://adaway.org/hosts.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:00 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+20230204-16:20:01 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:01 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+20230204-16:20:01 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts in .\Listen\Werbung.txt geschrieben
+20230204-16:20:01 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
+20230204-16:20:02 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt in .\Listen\Werbung.txt geschrieben
+20230204-16:20:02 | Information | Beginne mit dem Update von Jugendschutz
+20230204-16:20:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6
+20230204-16:20:04 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6 in .\Listen\Jugendschutz.txt geschrieben
+20230204-16:20:04 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+20230204-16:20:05 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection in .\Listen\Jugendschutz.txt geschrieben
+20230204-16:20:05 | Information | Beginne mit dem Update von Malware
+20230204-16:20:05 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+20230204-16:20:06 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware in .\Listen\Malware.txt geschrieben
+20230204-16:20:06 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+20230204-16:20:06 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:06 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+20230204-16:20:06 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto in .\Listen\Malware.txt geschrieben
+20230204-16:20:06 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Malware.txt
+20230204-16:20:07 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Malware.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:07 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+20230204-16:20:10 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+20230204-16:20:10 | Information | Inhalte von https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+20230204-16:20:11 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts in .\Listen\Malware.txt geschrieben
+20230204-16:20:11 | Information | Abrufen der URL: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+20230204-16:20:11 | Information | Inhalte von https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:11 | Information | Abrufen der URL: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
+20230204-16:20:11 | Information | Inhalte von https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:11 | Information | Abrufen der URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+20230204-16:20:11 | Information | Inhalte von https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:11 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+20230204-16:20:11 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts in .\Listen\Malware.txt geschrieben
+20230204-16:20:11 | Information | Abrufen der URL: https://urlhaus.abuse.ch/downloads/hostfile/
+20230204-16:20:12 | Information | Inhalte von https://urlhaus.abuse.ch/downloads/hostfile/ in .\Listen\Malware.txt geschrieben
+20230204-16:20:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
+20230204-16:20:12 | Information | Inhalte von https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+20230204-16:20:14 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt in .\Listen\Malware.txt geschrieben
+20230204-16:20:14 | Information | Beginne mit dem Update von PuDS
+20230204-16:20:14 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-16:20:14 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-16:20:14 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-16:20:15 | Information | Beginne mit dem Update von Shops
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-16:20:15 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-16:20:15 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-16:20:16 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-16:20:16 | Information | Starte Optimierung von .\Listen\Sonstiges.txt 
+20230204-16:20:55 | Information | Disclamer zu .\Listen\Sonstiges.txt hinzugefügt
+20230204-16:20:55 | Information | Schreibe die Optimirten URLs in .\Listen\Sonstiges.txt 
+20230204-16:21:21 | Information | Optimisirung abgeschlossen, in .\Listen\Sonstiges.txt es wurden 336 Doppelte ZRLs gefunden
+20230204-16:21:21 | Information | Starte Optimierung von .\Listen\Tracking.txt 
+20230204-16:21:42 | Information | Disclamer zu .\Listen\Tracking.txt hinzugefügt
+20230204-16:21:42 | Information | Schreibe die Optimirten URLs in .\Listen\Tracking.txt 
+20230204-16:22:02 | Information | Optimisirung abgeschlossen, in .\Listen\Tracking.txt es wurden 13818 Doppelte ZRLs gefunden
+20230204-16:22:02 | Information | Starte Optimierung von .\Listen\Werbung.txt 
+20230204-16:22:51 | Information | Disclamer zu .\Listen\Werbung.txt hinzugefügt
+20230204-16:22:51 | Information | Schreibe die Optimirten URLs in .\Listen\Werbung.txt 
+20230204-16:23:23 | Information | Optimisirung abgeschlossen, in .\Listen\Werbung.txt es wurden 201037 Doppelte ZRLs gefunden
+20230204-16:23:23 | Information | Starte Optimierung von .\Listen\Jugendschutz.txt 
+20230204-16:24:06 | Information | Disclamer zu .\Listen\Jugendschutz.txt hinzugefügt
+20230204-16:24:06 | Information | Schreibe die Optimirten URLs in .\Listen\Jugendschutz.txt 
+20230204-16:25:09 | Information | Optimisirung abgeschlossen, in .\Listen\Jugendschutz.txt es wurden 4272 Doppelte ZRLs gefunden
+20230204-16:25:09 | Information | Starte Optimierung von .\Listen\Malware.txt 
+20230204-16:26:11 | Information | Disclamer zu .\Listen\Malware.txt hinzugefügt
+20230204-16:26:11 | Information | Schreibe die Optimirten URLs in .\Listen\Malware.txt 
+20230204-16:26:56 | Information | Optimisirung abgeschlossen, in .\Listen\Malware.txt es wurden 146902 Doppelte ZRLs gefunden
+20230204-16:26:56 | Information | Starte Optimierung von .\Listen\Phishing_Domain-Squatting.txt 
+20230204-16:26:59 | Information | Disclamer zu .\Listen\Phishing_Domain-Squatting.txt hinzugefügt
+20230204-16:26:59 | Information | Schreibe die Optimirten URLs in .\Listen\Phishing_Domain-Squatting.txt 
+20230204-16:27:04 | Information | Optimisirung abgeschlossen, in .\Listen\Phishing_Domain-Squatting.txt es wurden 10601 Doppelte ZRLs gefunden
+20230204-16:27:04 | Information | Starte Optimierung von .\Listen\FakeshopsAboFallen.txt 
+20230204-16:27:07 | Information | Disclamer zu .\Listen\FakeshopsAboFallen.txt hinzugefügt
+20230204-16:27:07 | Information | Schreibe die Optimirten URLs in .\Listen\FakeshopsAboFallen.txt 
+20230204-16:27:12 | Information | Optimisirung abgeschlossen, in .\Listen\FakeshopsAboFallen.txt es wurden 10601 Doppelte ZRLs gefunden
+20230204-16:27:12 | Information | Update Abgeschlossen
+20230204-16:27:12 | Information | Zählen der URLs
+20230204-16:27:12 | Information | Alles Listen Zusammen haben 0 URLs
+20230204-19:23:46 | Information | Löschen aller Listen
+20230204-19:23:46 | Information | Starte Update
+20230204-19:23:46 | Information | Beginne mit dem Update von Sonstiges
+20230204-19:23:46 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
+20230204-19:23:46 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:46 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt 
+20230204-19:23:46 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:46 | Information | Abrufen der URL: https://dbl.oisd.nl/
+20230204-19:23:48 | Information | Inhalte von https://dbl.oisd.nl/ in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:48 | Information | Abrufen der URL: https://v.firebog.net/hosts/static/w3kbl.txt 
+20230204-19:23:49 | Information | Inhalte von https://v.firebog.net/hosts/static/w3kbl.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:49 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+20230204-19:23:49 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:49 | Information | Abrufen der URL: https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
+20230204-19:23:49 | Information | Inhalte von https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:49 | Information | Abrufen der URL: https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts 
+20230204-19:23:49 | Information | Inhalte von https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:23:49 | Information | Beginne mit dem Update von Tracking
+20230204-19:23:49 | Information | Abrufen der URL: https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
+20230204-19:23:50 | Information | Inhalte von https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+20230204-19:23:50 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+20230204-19:23:50 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+20230204-19:23:50 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:50 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+20230204-19:23:51 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry in .\Listen\Tracking.txt geschrieben
+20230204-19:23:51 | Information | Abrufen der URL: https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
+20230204-19:23:51 | Information | Inhalte von https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist in .\Listen\Tracking.txt geschrieben
+20230204-19:23:51 | Information | Abrufen der URL: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+20230204-19:23:51 | Information | Inhalte von https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:51 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-19:23:51 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:51 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+20230204-19:23:51 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:51 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+20230204-19:23:52 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+20230204-19:23:52 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung in .\Listen\Tracking.txt geschrieben
+20230204-19:23:52 | Information | Abrufen der URL: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+20230204-19:23:53 | Information | Inhalte von https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:53 | Information | Abrufen der URL: https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+20230204-19:23:53 | Information | Inhalte von https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
+20230204-19:23:53 | Information | Inhalte von https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:23:53 | Information | Beginne mit dem Update von Werbung
+20230204-19:23:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+20230204-19:23:54 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist in .\Listen\Werbung.txt geschrieben
+20230204-19:23:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+20230204-19:23:56 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails in .\Listen\Werbung.txt geschrieben
+20230204-19:23:56 | Information | Abrufen der URL: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+20230204-19:23:56 | Information | Inhalte von https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:56 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-19:23:56 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:56 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easylist.txt
+20230204-19:23:56 | Information | Inhalte von https://v.firebog.net/hosts/Easylist.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:56 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Ads.txt
+20230204-19:23:56 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Ads.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:56 | Information | Abrufen der URL: https://v.firebog.net/hosts/AdguardDNS.txt
+20230204-19:23:57 | Information | Inhalte von https://v.firebog.net/hosts/AdguardDNS.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:57 | Information | Abrufen der URL: https://adaway.org/hosts.txt
+20230204-19:23:57 | Information | Inhalte von https://adaway.org/hosts.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:57 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+20230204-19:23:57 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:57 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+20230204-19:23:58 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts in .\Listen\Werbung.txt geschrieben
+20230204-19:23:58 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
+20230204-19:23:58 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:23:58 | Information | Beginne mit dem Update von Jugendschutz
+20230204-19:23:58 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6
+20230204-19:24:01 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6 in .\Listen\Jugendschutz.txt geschrieben
+20230204-19:24:01 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+20230204-19:24:02 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection in .\Listen\Jugendschutz.txt geschrieben
+20230204-19:24:02 | Information | Beginne mit dem Update von Malware
+20230204-19:24:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+20230204-19:24:02 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware in .\Listen\Malware.txt geschrieben
+20230204-19:24:02 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+20230204-19:24:02 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+20230204-19:24:03 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto in .\Listen\Malware.txt geschrieben
+20230204-19:24:03 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Malware.txt
+20230204-19:24:03 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Malware.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:03 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+20230204-19:24:05 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:05 | Information | Abrufen der URL: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+20230204-19:24:05 | Information | Inhalte von https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:05 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+20230204-19:24:05 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts in .\Listen\Malware.txt geschrieben
+20230204-19:24:05 | Information | Abrufen der URL: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+20230204-19:24:05 | Information | Inhalte von https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:05 | Information | Abrufen der URL: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
+20230204-19:24:06 | Information | Inhalte von https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:06 | Information | Abrufen der URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+20230204-19:24:06 | Information | Inhalte von https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:06 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+20230204-19:24:06 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts in .\Listen\Malware.txt geschrieben
+20230204-19:24:06 | Information | Abrufen der URL: https://urlhaus.abuse.ch/downloads/hostfile/
+20230204-19:24:06 | Information | Inhalte von https://urlhaus.abuse.ch/downloads/hostfile/ in .\Listen\Malware.txt geschrieben
+20230204-19:24:06 | Information | Abrufen der URL: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
+20230204-19:24:06 | Information | Inhalte von https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:06 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+20230204-19:24:09 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt in .\Listen\Malware.txt geschrieben
+20230204-19:24:09 | Information | Beginne mit dem Update von PuDS
+20230204-19:24:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-19:24:09 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:24:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-19:24:09 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:24:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:24:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:24:10 | Information | Beginne mit dem Update von Shops
+20230204-19:24:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:24:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:24:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:24:10 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-19:24:10 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:24:10 | Information | Starte Optimierung von .\Listen\Sonstiges.txt 
+20230204-19:24:53 | Information | Disclamer zu .\Listen\Sonstiges.txt hinzugefügt
+20230204-19:24:53 | Information | Schreibe die Optimirten URLs in .\Listen\Sonstiges.txt 
+20230204-19:25:20 | Information | Optimisirung abgeschlossen, in .\Listen\Sonstiges.txt es wurden 336 Doppelte URLs gefunden
+20230204-19:25:20 | Information | Starte Optimierung von .\Listen\Tracking.txt 
+20230204-19:25:48 | Information | Disclamer zu .\Listen\Tracking.txt hinzugefügt
+20230204-19:25:48 | Information | Schreibe die Optimirten URLs in .\Listen\Tracking.txt 
+20230204-19:26:13 | Information | Optimisirung abgeschlossen, in .\Listen\Tracking.txt es wurden 13818 Doppelte URLs gefunden
+20230204-19:26:13 | Information | Starte Optimierung von .\Listen\Werbung.txt 
+20230204-19:27:13 | Information | Disclamer zu .\Listen\Werbung.txt hinzugefügt
+20230204-19:27:13 | Information | Schreibe die Optimirten URLs in .\Listen\Werbung.txt 
+20230204-19:27:52 | Information | Optimisirung abgeschlossen, in .\Listen\Werbung.txt es wurden 201037 Doppelte URLs gefunden
+20230204-19:27:52 | Information | Starte Optimierung von .\Listen\Jugendschutz.txt 
+20230204-19:28:48 | Information | Disclamer zu .\Listen\Jugendschutz.txt hinzugefügt
+20230204-19:28:48 | Information | Schreibe die Optimirten URLs in .\Listen\Jugendschutz.txt 
+20230204-19:29:28 | Information | Optimisirung abgeschlossen, in .\Listen\Jugendschutz.txt es wurden 4272 Doppelte URLs gefunden
+20230204-19:29:28 | Information | Starte Optimierung von .\Listen\Malware.txt 
+20230204-19:30:42 | Information | Disclamer zu .\Listen\Malware.txt hinzugefügt
+20230204-19:30:42 | Information | Schreibe die Optimirten URLs in .\Listen\Malware.txt 
+20230204-19:31:29 | Information | Optimisirung abgeschlossen, in .\Listen\Malware.txt es wurden 146904 Doppelte URLs gefunden
+20230204-19:31:29 | Information | Starte Optimierung von .\Listen\Phishing_Domain-Squatting.txt 
+20230204-19:31:33 | Information | Disclamer zu .\Listen\Phishing_Domain-Squatting.txt hinzugefügt
+20230204-19:31:33 | Information | Schreibe die Optimirten URLs in .\Listen\Phishing_Domain-Squatting.txt 
+20230204-19:31:38 | Information | Optimisirung abgeschlossen, in .\Listen\Phishing_Domain-Squatting.txt es wurden 10601 Doppelte URLs gefunden
+20230204-19:31:38 | Information | Starte Optimierung von .\Listen\FakeshopsAboFallen.txt 
+20230204-19:31:42 | Information | Disclamer zu .\Listen\FakeshopsAboFallen.txt hinzugefügt
+20230204-19:31:42 | Information | Schreibe die Optimirten URLs in .\Listen\FakeshopsAboFallen.txt 
+20230204-19:31:47 | Information | Optimisirung abgeschlossen, in .\Listen\FakeshopsAboFallen.txt es wurden 10601 Doppelte URLs gefunden
+20230204-19:31:47 | Information | Update Abgeschlossen
+20230204-19:31:47 | Information | Zählen der URLs
+20230204-19:31:47 | Information | Alles Listen Zusammen haben 0 URLs
+20230204-19:37:49 | Information | Löschen aller Listen
+20230204-19:37:49 | Information | Starte Update
+20230204-19:37:49 | Information | Beginne mit dem Update von Sonstiges
+20230204-19:37:49 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
+20230204-19:37:49 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:49 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt 
+20230204-19:37:50 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:50 | Information | Abrufen der URL: https://dbl.oisd.nl/
+20230204-19:37:51 | Information | Inhalte von https://dbl.oisd.nl/ in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:51 | Information | Abrufen der URL: https://v.firebog.net/hosts/static/w3kbl.txt 
+20230204-19:37:51 | Information | Inhalte von https://v.firebog.net/hosts/static/w3kbl.txt  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:51 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+20230204-19:37:52 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
+20230204-19:37:52 | Information | Inhalte von https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:52 | Information | Abrufen der URL: https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts 
+20230204-19:37:52 | Information | Inhalte von https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts  in .\Listen\Sonstiges.txt geschrieben
+20230204-19:37:52 | Information | Beginne mit dem Update von Tracking
+20230204-19:37:52 | Information | Abrufen der URL: https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
+20230204-19:37:53 | Information | Inhalte von https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+20230204-19:37:53 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:53 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+20230204-19:37:54 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+20230204-19:37:54 | Information | Inhalte von https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+20230204-19:37:54 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
+20230204-19:37:54 | Information | Inhalte von https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+20230204-19:37:54 | Information | Inhalte von https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-19:37:54 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:54 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+20230204-19:37:55 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:55 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+20230204-19:37:55 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:55 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+20230204-19:37:55 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung in .\Listen\Tracking.txt geschrieben
+20230204-19:37:55 | Information | Abrufen der URL: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+20230204-19:37:57 | Information | Inhalte von https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:57 | Information | Abrufen der URL: https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+20230204-19:37:57 | Information | Inhalte von https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:57 | Information | Abrufen der URL: https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
+20230204-19:37:58 | Information | Inhalte von https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt in .\Listen\Tracking.txt geschrieben
+20230204-19:37:58 | Information | Beginne mit dem Update von Werbung
+20230204-19:37:58 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+20230204-19:37:58 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist in .\Listen\Werbung.txt geschrieben
+20230204-19:37:58 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+20230204-19:38:00 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails in .\Listen\Werbung.txt geschrieben
+20230204-19:38:00 | Information | Abrufen der URL: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+20230204-19:38:00 | Information | Inhalte von https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:00 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easyprivacy.txt
+20230204-19:38:00 | Information | Inhalte von https://v.firebog.net/hosts/Easyprivacy.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:00 | Information | Abrufen der URL: https://v.firebog.net/hosts/Easylist.txt
+20230204-19:38:01 | Information | Inhalte von https://v.firebog.net/hosts/Easylist.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:01 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Ads.txt
+20230204-19:38:01 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Ads.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:01 | Information | Abrufen der URL: https://v.firebog.net/hosts/AdguardDNS.txt
+20230204-19:38:01 | Information | Inhalte von https://v.firebog.net/hosts/AdguardDNS.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:01 | Information | Abrufen der URL: https://adaway.org/hosts.txt
+20230204-19:38:01 | Information | Inhalte von https://adaway.org/hosts.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:01 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+20230204-19:38:02 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+20230204-19:38:02 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts in .\Listen\Werbung.txt geschrieben
+20230204-19:38:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
+20230204-19:38:02 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt in .\Listen\Werbung.txt geschrieben
+20230204-19:38:02 | Information | Beginne mit dem Update von Jugendschutz
+20230204-19:38:02 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6
+20230204-19:38:04 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6 in .\Listen\Jugendschutz.txt geschrieben
+20230204-19:38:04 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+20230204-19:38:04 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection in .\Listen\Jugendschutz.txt geschrieben
+20230204-19:38:04 | Information | Beginne mit dem Update von Malware
+20230204-19:38:04 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+20230204-19:38:05 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware in .\Listen\Malware.txt geschrieben
+20230204-19:38:05 | Information | Abrufen der URL: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+20230204-19:38:05 | Information | Inhalte von https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:05 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+20230204-19:38:05 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto in .\Listen\Malware.txt geschrieben
+20230204-19:38:05 | Information | Abrufen der URL: https://v.firebog.net/hosts/Prigent-Malware.txt
+20230204-19:38:06 | Information | Inhalte von https://v.firebog.net/hosts/Prigent-Malware.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:06 | Information | Abrufen der URL: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+20230204-19:38:08 | Information | Inhalte von https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:08 | Information | Abrufen der URL: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+20230204-19:38:08 | Information | Inhalte von https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:08 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+20230204-19:38:08 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts in .\Listen\Malware.txt geschrieben
+20230204-19:38:08 | Information | Abrufen der URL: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+20230204-19:38:08 | Information | Inhalte von https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:08 | Information | Abrufen der URL: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
+20230204-19:38:09 | Information | Inhalte von https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+20230204-19:38:09 | Information | Inhalte von https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+20230204-19:38:09 | Information | Inhalte von https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts in .\Listen\Malware.txt geschrieben
+20230204-19:38:09 | Information | Abrufen der URL: https://urlhaus.abuse.ch/downloads/hostfile/
+20230204-19:38:09 | Information | Inhalte von https://urlhaus.abuse.ch/downloads/hostfile/ in .\Listen\Malware.txt geschrieben
+20230204-19:38:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
+20230204-19:38:09 | Information | Inhalte von https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:09 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+20230204-19:38:11 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt in .\Listen\Malware.txt geschrieben
+20230204-19:38:11 | Information | Beginne mit dem Update von PuDS
+20230204-19:38:11 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-19:38:11 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:38:11 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-19:38:12 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:38:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-19:38:12 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:38:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-19:38:12 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\Phishing_Domain-Squatting.txt geschrieben
+20230204-19:38:12 | Information | Beginne mit dem Update von Shops
+20230204-19:38:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+20230204-19:38:12 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:38:12 | Information | Abrufen der URL: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+20230204-19:38:13 | Information | Inhalte von https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:38:13 | Information | Abrufen der URL: https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+20230204-19:38:13 | Information | Inhalte von https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:38:13 | Information | Abrufen der URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
+20230204-19:38:13 | Information | Inhalte von https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt in .\Listen\FakeshopsAboFallen.txt geschrieben
+20230204-19:38:13 | Information | Starte Optimierung von .\Listen\Sonstiges.txt 
+20230204-19:38:46 | Information | Disclamer zu .\Listen\Sonstiges.txt hinzugefügt
+20230204-19:38:46 | Information | Schreibe die Optimirten URLs in .\Listen\Sonstiges.txt 
+20230204-19:39:13 | Information | Optimisirung abgeschlossen, in .\Listen\Sonstiges.txt es wurden 336 Doppelte URLs gefunden
+20230204-19:39:13 | Information | Starte Optimierung von .\Listen\Tracking.txt 
+20230204-19:39:43 | Information | Disclamer zu .\Listen\Tracking.txt hinzugefügt
+20230204-19:39:43 | Information | Schreibe die Optimirten URLs in .\Listen\Tracking.txt 
+20230204-19:40:14 | Information | Optimisirung abgeschlossen, in .\Listen\Tracking.txt es wurden 13818 Doppelte URLs gefunden
+20230204-19:40:14 | Information | Starte Optimierung von .\Listen\Werbung.txt 
+20230204-19:41:15 | Information | Disclamer zu .\Listen\Werbung.txt hinzugefügt
+20230204-19:41:15 | Information | Schreibe die Optimirten URLs in .\Listen\Werbung.txt 
+20230204-19:42:05 | Information | Optimisirung abgeschlossen, in .\Listen\Werbung.txt es wurden 201037 Doppelte URLs gefunden
+20230204-19:42:05 | Information | Starte Optimierung von .\Listen\Jugendschutz.txt 
+20230204-19:42:54 | Information | Disclamer zu .\Listen\Jugendschutz.txt hinzugefügt
+20230204-19:42:54 | Information | Schreibe die Optimirten URLs in .\Listen\Jugendschutz.txt 
+20230204-19:43:39 | Information | Optimisirung abgeschlossen, in .\Listen\Jugendschutz.txt es wurden 4272 Doppelte URLs gefunden
+20230204-19:43:39 | Information | Starte Optimierung von .\Listen\Malware.txt 
+20230204-19:44:56 | Information | Disclamer zu .\Listen\Malware.txt hinzugefügt
+20230204-19:44:56 | Information | Schreibe die Optimirten URLs in .\Listen\Malware.txt 
+20230204-19:45:38 | Information | Optimisirung abgeschlossen, in .\Listen\Malware.txt es wurden 146904 Doppelte URLs gefunden
+20230204-19:45:38 | Information | Starte Optimierung von .\Listen\Phishing_Domain-Squatting.txt 
+20230204-19:45:42 | Information | Disclamer zu .\Listen\Phishing_Domain-Squatting.txt hinzugefügt
+20230204-19:45:42 | Information | Schreibe die Optimirten URLs in .\Listen\Phishing_Domain-Squatting.txt 
+20230204-19:45:47 | Information | Optimisirung abgeschlossen, in .\Listen\Phishing_Domain-Squatting.txt es wurden 10601 Doppelte URLs gefunden
+20230204-19:45:47 | Information | Starte Optimierung von .\Listen\FakeshopsAboFallen.txt 
+20230204-19:45:50 | Information | Disclamer zu .\Listen\FakeshopsAboFallen.txt hinzugefügt
+20230204-19:45:50 | Information | Schreibe die Optimirten URLs in .\Listen\FakeshopsAboFallen.txt 
+20230204-19:45:55 | Information | Optimisirung abgeschlossen, in .\Listen\FakeshopsAboFallen.txt es wurden 10601 Doppelte URLs gefunden
+20230204-19:45:55 | Information | Update Abgeschlossen
+20230204-19:45:55 | Information | Zählen der URLs
+20230204-19:45:57 | Information | Die Liste .\Listen\FakeshopsAboFallen.txt enthält 114701 URLs
+20230204-19:46:16 | Information | Die Liste .\Listen\Tracking.txt enthält 756624 URLs
+20230204-19:47:28 | Information | Die Liste .\Listen\Jugendschutz.txt enthält 1295577 URLs
+20230204-19:49:05 | Information | Die Liste .\Listen\Sonstiges.txt enthält 926289 URLs
+20230204-19:52:04 | Information | Die Liste .\Listen\Werbung.txt enthält 1085172 URLs
+20230204-20:09:34 | Information | Die Liste .\Listen\Malware.txt enthält 1325032 URLs
+20230204-20:09:52 | Information | Die Liste .\Listen\Phishing_Domain-Squatting.txt enthält 114701 URLs
+20230204-20:09:52 | Information | Alles Listen Zusammen haben 5618096 URLs
