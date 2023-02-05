@@ -1,22 +1,22 @@
 <#
 .NAME
-    PS Data Template
+    AdGuardList Updatelist
 .SYNOPSIS
-    Short description what does the script exactly.
+    Updatet die zusammen gefasten Listen
 .DESCRIPTION
-    Detailed description of the script, with everything that belongs to it
+    Diese Script läd sich aus div. Listen die zu Blockierenden Domains herrunter und Speichert diese in einer gorßen Liste je Kategorie.
 .FUNCTIONALITY
-    how does the script work
+    Nach dem Herrunterladen der Daten, werden diese in eine Datei geladen und anschliesend auf Dubletten überprüft, so kommt am ende eine große Liste die Möglichst optimiert ist raus.
 .NOTES
     Author: nox309
     Email: support@inselmann.it
     Git: https://github.com/nox309
     Version: 1.0
-    DateCreated: 2022/05/01
+    DateCreated: 202/05/01
 .EXAMPLE
-    Get-Something -UserPrincipalName "username@thesysadminchannel.com"
+    .\UpdateLists.ps1 -Autoupdate $true -debug $true
 .LINK
-    https://github.com/nox309/Projekt-Template/
+    https://github.com/nox309/AdGuardList
 #>
 
 #---------------------------------------------------------[Initialisations]--------------------------------------------------------
@@ -50,12 +50,14 @@ $qPaths = @{
     }
     
 $disclaimer = "
-#. Alle Listen des Projekts AdGuardList sind selbst erstellte Listen, basierend auf Grunddaten 
-#. aus verschiedenen Quellen. Hier werden div. Listen in einer Großen zusammen gefast um diese besser
-#. in Adgurard pflegen zu können. Die Quell Listen finden sie unter: 
-#.
-#.
-#. 
+#
+# Alle Listen des Projekts AdGuardList (https://github.com/nox309/AdGuardList) dienen nur einer besseren Übersicht.
+# Die Domains in diesen Listen werden nicht überprüft, sie fassen nur div. Listen aus Internet Themenbasiert zusammen 
+# und stammen aus verschiedenen Quellen. Die Quell Listen die die Basis für dieses Projekt dienen finden sie unter: 
+# https://github.com/nox309/AdGuardList/tree/main/Quellen
+# oder 
+# https://github.com/nox309/AdGuardList/blob/main/Quellen/Listenuebersicht.md
+#
 "
 
 $logpath = ".\Update.log"
@@ -77,7 +79,7 @@ function Write-Log {
     )
 
     $time = (get-date -Format yyyyMMdd-HH:mm:ss)
-
+    
     if (!(Test-Path $logpath)) {
         "Timestamp | Severity | Message" | Out-File -FilePath $logpath -Append  -Encoding utf8
         "$Time | Information | Log started" | Out-File -FilePath $logpath -Append  -Encoding utf8
@@ -87,15 +89,12 @@ function Write-Log {
         if ($Severity -eq "Information") {
             $color = "Gray"
         }
-
         if ($Severity -eq "Warning") {
             $color = "Yellow"
         }
-
         if ($Severity -eq "Error") {
             $color = "Red"
         }
-
         if ($Severity -eq "Debug") {
             $color = "Green"
         }
@@ -104,7 +103,6 @@ function Write-Log {
     }
 
     "$Time | $Severity | $Message" | Out-File -FilePath $logpath -Append  -Encoding utf8
-
 }
 
 Function Start-optimize {
