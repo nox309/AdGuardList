@@ -127,8 +127,11 @@ Function Start-optimize {
 
     # Berechnen Sie die Anzahl der gelöschten URLs
     $deletedUrlsCount = $urls.Count - $uniqueUrls.Count
+    $count = $uniqueUrls.Count
+    $sum += $count
 
     # Rückgabe der Anzahl der gelöschten URLs
+    Write-Log -Message "Die Liste $filePath enthält $($uniqueUrls.Count) URLs" -Severity Information -console $true
     Write-Log -Message "Optimisirung abgeschlossen, in $filePath es wurden $deletedUrlsCount Doppelte URLs gefunden" -Severity Information -console $true
 }
 
@@ -161,11 +164,13 @@ foreach ($category in $paths.Keys) {
 foreach ($sourcepath in $paths.Values) {
         Start-optimize $sourcepath
     }
-        
+
 
 Write-Log -Message "Update Abgeschlossen" -Severity Information -console $true
-Write-Log -Message "Zählen der URLs" -Severity Information -console $true
+Write-Log -Message "Zählen aller URLs" -Severity Information -console $true
+Write-Log -Message "Alles Listen Zusammen haben $sum URLs" -Severity Information -console $true
 
+<#
 $CountShops = (Get-Content -Path $paths.Shops)
 Write-Log -Message "Die Liste $($paths.Shops) enthält $($CountShops.Count) URLs" -Severity Information -console $true
 
@@ -190,13 +195,30 @@ Write-Log -Message "Die Liste $($paths.PuDS) enthält $($CountPuDS.Count) URLs" 
 $sum = $CountShops.Count + $CountTracking.Count + $CountJugendschutz.Count + $CountSonstiges.Count + $CountWerbung.Count + $CountMalware.Count + $CountPuDS.Count
 Write-Log -Message "Alles Listen Zusammen haben $sum URLs" -Severity Information -console $true
 
+
+
+
+$filePaths = @("$($paths.Shops)", "$($paths.Tracking)", "$($paths.Jugendschutz)", "$($paths.Sonstiges)", "$($paths.Werbung)", "$($paths.Malware)", "$($paths.PuDS)")
+
+$sum = 0
+
+foreach ($filePath in $filePaths) {
+    $count = (Get-Content -Path $filePath).Count
+    $sum += $count
+    Write-Log -Message "Die Liste $filePath enthält $count URLs" -Severity Information -console $true
+}
+
+Write-Log -Message "Alles Listen Zusammen haben $sum URLs" -Severity Information -console $true
+#>
+
+
 if ($Autoupdate) {
     Write-Log -Message "Git Autoupdate wird ausgeführt" -Severity Information -console $true
     git add .
-    $msg_commit = (git commit -m "Auto Update")
-    Write-Log -Message $msg_commit -Severity Information -console $true
-    $msg_pull = (git pull)
-    Write-Log -Message $msg_pull -Severity Information -console $true
+    git commit -m "Auto Update"
+    git push
+    Write-Log -Message "Git Autoupdate abgeschlossen alles auf dem Aktuellen Stand" -Severity Information -console $true
+
 }
 else {
     Write-Log -Message "Autoupdate übersprungen" -Severity Warning -console $true
