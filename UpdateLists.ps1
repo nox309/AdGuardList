@@ -24,8 +24,10 @@
 # Definition der Parameter
 Param(
     [bool]$Autoupdate = $False,
-    [bool]$debug = $False,
+    [bool]$debug = $False
 )
+
+$ErrorActionPreference = "SilentlyContinue"
 
 $paths = @{
     "Tracking" = ".\Listen\Tracking.txt"
