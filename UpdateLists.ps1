@@ -161,6 +161,8 @@ Write-Log -Message "Download der Listen abgeschlossen" -Severity Information -co
 Write-Log -Message "Alle Listen haben zusammen $sum URLs" -Severity Information -console $true
 
 if ($Autoupdate) {
+    $AUT = (get-date -Format yyyyMMdd)
+    "| $AUT | Auto Update - Anzahl der URLs $sum|" | Out-File -FilePath ".\README.md" -Append  -Encoding utf8
     Write-Log -Message "Git Autoupdate wird ausgeführt" -Severity Information -console $true
     git add .
     git commit -m "Auto Update"
