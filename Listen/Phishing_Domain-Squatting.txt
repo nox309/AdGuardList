@@ -1,10 +1,12 @@
 
-#. Alle Listen des Projekts AdGuardList sind selbst erstellte Listen, basierend auf Grunddaten 
-#. aus verschiedenen Quellen. Hier werden div. Listen in einer Großen zusammen gefast um diese besser
-#. in Adgurard pflegen zu können. Die Quell Listen finden sie unter: 
-#.
-#.
-#. 
+#
+# Alle Listen des Projekts AdGuardList (https://github.com/nox309/AdGuardList) dienen nur einer besseren Übersicht.
+# Die Domains in diesen Listen werden nicht überprüft, sie fassen nur div. Listen aus Internet Themenbasiert zusammen 
+# und stammen aus verschiedenen Quellen. Die Quell Listen die die Basis für dieses Projekt dienen finden sie unter: 
+# https://github.com/nox309/AdGuardList/tree/main/Quellen
+# oder 
+# https://github.com/nox309/AdGuardList/blob/main/Quellen/Listenuebersicht.md
+#
 
 
 007-os-diamantes-sao-eternos.olink.tv
