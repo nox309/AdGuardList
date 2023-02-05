@@ -23,7 +23,8 @@
 
 # Definition der Parameter
 Param(
-    [bool]$Autoupdate = $False
+    [bool]$Autoupdate = $False,
+    [bool]$debug = $False,
 )
 
 $paths = @{
@@ -116,8 +117,8 @@ Function Start-optimize {
    
     # Überschreiben Sie die ursprüngliche Datei mit den eindeutigen URLs
     $disclaimer | Out-File -FilePath $filePath -Encoding utf8
-    Write-Log -Message "Disclamer zu $filePath hinzugefügt" -Severity Information -console $true
-    Write-Log -Message "Schreibe die Optimirten URLs in $filePath " -Severity Information -console $true
+    Write-Log -Message "Disclamer zu $filePath hinzugefügt" -Severity Information -console $debug
+    Write-Log -Message "Schreibe die Optimirten URLs in $filePath " -Severity Information -console $debug
     $uniqueUrls | Out-File -FilePath $filePath -Append -Encoding utf8
 
     # Berechnen der Anzahl der gelöschten URLs
@@ -126,14 +127,14 @@ Function Start-optimize {
     $sum += $count
 
     # Rückgabe der Anzahl der gelöschten URLs
-    Write-Log -Message "Die Liste $filePath enthält $($uniqueUrls.Count) URLs" -Severity Information -console $true
+    Write-Log -Message "Die Liste $filePath enthält $($uniqueUrls.Count) URLs" -Severity Information -console $debug
     Write-Log -Message "Optimisirung abgeschlossen, in $filePath es wurden $deletedUrlsCount Doppelte URLs gefunden" -Severity Information -console $true
 }
 
 Write-Log -Message "Listen Update wird gestatet mit Git Auto Update = $Autoupdate" -Severity Information -console $true
-Write-Log -Message "Löschen aller Listen" -Severity Information -console $true
+Write-Log -Message "Löschen aller Listen" -Severity Information -console $debug
 Remove-Item ".\Listen\*"
-Write-Log -Message "Starte Update" -Severity Information -console $true
+Write-Log -Message "Abrufen der URLs beginnt" -Severity Information -console $debug
 
 # Abrufen der URLs jeder Kategorie
 foreach ($category in $paths.Keys) {
@@ -144,11 +145,11 @@ foreach ($category in $paths.Keys) {
     # Abrufen der Sperrlisten
     foreach ($url in $urls) {
         # Herunterladen des Inhalts der URL
-        Write-Log -Message "Abrufen der URL: $url" -Severity Information -console $true
+        Write-Log -Message "Abrufen der URL: $url" -Severity Information -console $debug
         $content = Invoke-WebRequest -Uri $url -UseBasicParsing
         # Speichern des Inhalts in einer Datei
         $content.Content | Out-File -FilePath $paths[$category] -Append  -Encoding utf8
-        Write-Log -Message "Inhalte von $url in $($paths[$category]) geschrieben" -Severity Information -console $true
+        Write-Log -Message "Inhalte von $url in $($paths[$category]) geschrieben" -Severity Information -console $debug
         }
     }
 
@@ -156,7 +157,7 @@ foreach ($sourcepath in $paths.Values) {
         Start-optimize $sourcepath
     }
 
-Write-Log -Message "Update Abgeschlossen" -Severity Information -console $true
+Write-Log -Message "Download der Listen abgeschlossen" -Severity Information -console $true
 Write-Log -Message "Alle Listen haben zusammen $sum URLs" -Severity Information -console $true
 
 if ($Autoupdate) {
@@ -164,8 +165,8 @@ if ($Autoupdate) {
     git add .
     git commit -m "Auto Update"
     git push
-    Write-Log -Message "Git Autoupdate abgeschlossen alles auf dem Aktuellen Stand" -Severity Information -console $true
+    Write-Log -Message "Git Autoupdate abgeschlossen alles auf dem aktuellen Stand" -Severity Information -console $true
 }
 else {
-    Write-Log -Message "Autoupdate übersprungen" -Severity Warning -console $true
+    Write-Log -Message "Autoupdate übersprungen" -Severity Warning -console $debug
 }
