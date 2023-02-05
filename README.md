@@ -15,4 +15,9 @@ https://github.com/nox309/AdGuardList/blob/main/Quellen/Listenuebersicht.md
 |--|--|
 | 20230122 | Initial Commit |
 | 20230204 | Performans Update, Git Autoupdate hinzugefügt |
-| 20230205 | Beschreibungen Texte geändert, Debug Parameter für die Konsole || 20230205 | Auto Update - Anzahl der URLs |
+| 20230205 | Beschreibungen Texte geändert, Debug Parameter für die Konsole |
+| 20230205 | Auto Update - Anzahl der URLs |
+| 20230205 | Auto Update |
+| 20230205 | Auto Update - Anzahl der URLs |
+| 20230205 | Auto Update - Anzahl der URLs 5700142|
+| 20230205 | Auto Update - Anzahl der URLs 5699847|

@@ -61,6 +61,7 @@ $disclaimer = "
 "
 
 $logpath = ".\Update.log"
+New-Variable -Name sum -Option AllScope -Value 0
 
 function Write-Log {
     [CmdletBinding()]
@@ -105,32 +106,6 @@ function Write-Log {
     "$Time | $Severity | $Message" | Out-File -FilePath $logpath -Append  -Encoding utf8
 }
 
-Function Start-optimize {
-    param($filePath)
-    Write-Log -Message "Starte Optimierung von $filePath " -Severity Information -console $true
-
-    # Lesen der URLs aus der Datei in eine Liste
-    $urls = (Get-Content $filePath) -replace '^#.*',""
-    
-    # Entfernen der doppelte URLs und speichern der Ergebnisse in einer neuen Liste
-    $uniqueUrls = $urls | Sort-Object -Unique
-   
-    # Überschreiben Sie die ursprüngliche Datei mit den eindeutigen URLs
-    $disclaimer | Out-File -FilePath $filePath -Encoding utf8
-    Write-Log -Message "Disclamer zu $filePath hinzugefügt" -Severity Information -console $debug
-    Write-Log -Message "Schreibe die Optimirten URLs in $filePath " -Severity Information -console $debug
-    $uniqueUrls | Out-File -FilePath $filePath -Append -Encoding utf8
-
-    # Berechnen der Anzahl der gelöschten URLs
-    $deletedUrlsCount = $urls.Count - $uniqueUrls.Count
-    $count = $uniqueUrls.Count
-    $sum += $count
-
-    # Rückgabe der Anzahl der gelöschten URLs
-    Write-Log -Message "Die Liste $filePath enthält $($uniqueUrls.Count) URLs" -Severity Information -console $debug
-    Write-Log -Message "Optimisirung abgeschlossen, in $filePath es wurden $deletedUrlsCount Doppelte URLs gefunden" -Severity Information -console $true
-}
-
 Write-Log -Message "Listen Update wird gestatet mit Git Auto Update = $Autoupdate" -Severity Information -console $true
 Write-Log -Message "Löschen aller Listen" -Severity Information -console $debug
 Remove-Item ".\Listen\*"
@@ -154,15 +129,37 @@ foreach ($category in $paths.Keys) {
     }
 
 foreach ($sourcepath in $paths.Values) {
-        Start-optimize $sourcepath
+    Write-Log -Message "Starte Optimierung von $sourcepath " -Severity Information -console $true
+
+    # Lesen der URLs aus der Datei in eine Liste
+    $urls = (Get-Content $sourcepath) -replace '^#.*',""
+    
+    # Entfernen der doppelte URLs und speichern der Ergebnisse in einer neuen Liste
+    $uniqueUrls = $urls | Sort-Object -Unique
+   
+    # Überschreiben Sie die ursprüngliche Datei mit den eindeutigen URLs
+    $disclaimer | Out-File -FilePath $sourcepath -Encoding utf8
+    Write-Log -Message "Disclamer zu $sourcepath hinzugefügt" -Severity Information -console $debug
+    Write-Log -Message "Schreibe die Optimirten URLs in $sourcepath " -Severity Information -console $debug
+    $uniqueUrls | Out-File -FilePath $sourcepath -Append -Encoding utf8
+
+    # Berechnen der Anzahl der gelöschten URLs
+    $deletedUrlsCount = $urls.Count - $uniqueUrls.Count
+    $count = $uniqueUrls.Count
+    $sum = $sum + $count
+
+    # Rückgabe der Anzahl der gelöschten URLs
+    Write-Log -Message "Die Liste $sourcepath enthält $($uniqueUrls.Count) URLs" -Severity Information -console $debug
+    Write-Log -Message "Optimisirung abgeschlossen, in $sourcepath es wurden $deletedUrlsCount Doppelte URLs gefunden" -Severity Information -console $true
     }
 
 Write-Log -Message "Download der Listen abgeschlossen" -Severity Information -console $true
 Write-Log -Message "Alle Listen haben zusammen $sum URLs" -Severity Information -console $true
 
+$AUT = (get-date -Format yyyyMMdd)
+"| $AUT | Auto Update - Anzahl der URLs $sum|" | Out-File -FilePath ".\README.md" -Append  -Encoding utf8
+
 if ($Autoupdate) {
-    $AUT = (get-date -Format yyyyMMdd)
-    "| $AUT | Auto Update - Anzahl der URLs $sum|" | Out-File -FilePath ".\README.md" -Append  -Encoding utf8
     Write-Log -Message "Git Autoupdate wird ausgeführt" -Severity Information -console $true
     git add .
     git commit -m "Auto Update"
