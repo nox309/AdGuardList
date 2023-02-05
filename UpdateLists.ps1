@@ -20,6 +20,12 @@
 #>
 
 #---------------------------------------------------------[Initialisations]--------------------------------------------------------
+
+# Definition der Parameter
+Param(
+    [bool]$Autoupdate = $False
+)
+
 $paths = @{
     "Tracking" = ".\Listen\Tracking.txt"
     "Shops" = ".\Listen\FakeshopsAboFallen.txt"
@@ -50,7 +56,7 @@ $disclaimer = "
 "
 
 $logpath = ".\Update.log"
-$totalURLs = 0
+
 
 
 function Write-Log {
@@ -121,12 +127,12 @@ Function Start-optimize {
 
     # Berechnen Sie die Anzahl der gelöschten URLs
     $deletedUrlsCount = $urls.Count - $uniqueUrls.Count
-    $totalURLs = $totalURLs + $uniqueUrls.Count
 
     # Rückgabe der Anzahl der gelöschten URLs
     Write-Log -Message "Optimisirung abgeschlossen, in $filePath es wurden $deletedUrlsCount Doppelte URLs gefunden" -Severity Information -console $true
 }
 
+Write-Log -Message "Listen Update wird gestatet mit Git Auto Update = $Autoupdate" -Severity Information -console $true
 Write-Log -Message "Löschen aller Listen" -Severity Information -console $true
 Remove-Item ".\Listen\*"
 Write-Log -Message "Starte Update" -Severity Information -console $true
@@ -184,4 +190,14 @@ Write-Log -Message "Die Liste $($paths.PuDS) enthält $($CountPuDS.Count) URLs" 
 $sum = $CountShops.Count + $CountTracking.Count + $CountJugendschutz.Count + $CountSonstiges.Count + $CountWerbung.Count + $CountMalware.Count + $CountPuDS.Count
 Write-Log -Message "Alles Listen Zusammen haben $sum URLs" -Severity Information -console $true
 
-#Write-Log -Message "Alles Listen Zusammen haben $totalURLs URLs" -Severity Information -console $true
+if ($Autoupdate) {
+    Write-Log -Message "Git Autoupdate wird ausgeführt" -Severity Information -console $true
+    git add .
+    $msg_commit = (git commit -m "Auto Update")
+    Write-Log -Message $msg_commit -Severity Information -console $true
+    $msg_pull = (git pull)
+    Write-Log -Message $msg_pull -Severity Information -console $true
+}
+else {
+    Write-Log -Message "Autoupdate übersprungen" -Severity Warning -console $true
+}
