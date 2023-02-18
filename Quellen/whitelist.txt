@@ -1,0 +1,8 @@
+0.nl.pool.ntp.org
+pool.ntp.org
+2.pool.ntp.org
+api.github.com
+github.com
+nl.pool.ntp.org
+bs.to
+i.ytimg.com #Youtube Vorschaubilder
