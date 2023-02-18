@@ -23,3 +23,4 @@ https://github.com/nox309/AdGuardList/blob/main/Quellen/Listenuebersicht.md
 | 20230205 | Auto Update - Anzahl der URLs 5699847|
 | 20230211 | Auto Update - Anzahl der URLs 5657275|
 | 20230218 | Auto Update - Anzahl der URLs 5900921|
+| 20230218 | Auto Update - Anzahl der URLs 5188773|
