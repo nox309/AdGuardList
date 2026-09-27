@@ -10,3 +10,4 @@ bs.to
 i.ytimg.com #Youtube Vorschaubilder
 adguard.com
 www.adguard.com
+bambuddy.cool
